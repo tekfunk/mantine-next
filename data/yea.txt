@@ -1,0 +1,535 @@
+MONOLOGUE PATCH: ThickSeq
+----------------------------
+
+Drive: 0
+VCO1:
+	Wave: Square
+	Shape: 604
+	Level: 1023
+	Pitch: 0
+	Duty: None
+	Octave: 16"
+VCO2:
+	Wave: Sawtooth
+	Shape: 906
+	Level: 1023
+	Pitch: 512
+	Duty: None
+	Octave: 8"
+Filter:
+	Cutoff: 296
+	Resonance: 321
+Envelope:
+	Envelope Type: AD
+	Attack: 110
+	Decay: 275
+	Intensity: 361
+	Target: Cutoff
+LFO:
+	Wave: Triangle
+	LFO Mode: 1-Shot
+	Rate: 380
+	Intensity: 361
+	Target: Shape
+Misc Params:
+	BPM Sync: Off
+	Portament Mode: Off
+	Potament Time: 0
+	Cutoff Velocity: 100%
+	Cutoff Key Track: 100%
+	Slider Assign: PITCH BEND
+
+SEQUENCER
+---------
+BPM: 93
+Step Length: 16
+Step Resolution: 1/2
+Swing: 0
+Default Gate Time: 0.75
+
+Motion Slot 1
+	On/Off: Off
+	Smooth On/Off: Off
+	Parameter: None
+
+Motion Slot 2
+	On/Off: Off
+	Smooth On/Off: Off
+	Parameter: None
+
+Motion Slot 3
+	On/Off: Off
+	Smooth On/Off: Off
+	Parameter: None
+
+Motion Slot 4
+	On/Off: Off
+	Smooth On/Off: Off
+	Parameter: None
+
+Step 1
+	On/Off: On
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: C3
+	Velocity: 45
+	GateTime: 58%
+	Trigger: On
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+Step 2
+	On/Off: Off
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: --
+	Velocity: 0
+	GateTime: 0%
+	Trigger: Off
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+Step 3
+	On/Off: On
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: C3
+	Velocity: 59
+	GateTime: 52%
+	Trigger: On
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+Step 4
+	On/Off: Off
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: --
+	Velocity: 0
+	GateTime: 0%
+	Trigger: Off
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+Step 5
+	On/Off: Off
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: --
+	Velocity: 0
+	GateTime: 0%
+	Trigger: Off
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+Step 6
+	On/Off: On
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: C3
+	Velocity: 96
+	GateTime: 51%
+	Trigger: On
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+Step 7
+	On/Off: Off
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: --
+	Velocity: 0
+	GateTime: 0%
+	Trigger: Off
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+Step 8
+	On/Off: Off
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: --
+	Velocity: 0
+	GateTime: 0%
+	Trigger: Off
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+Step 9
+	On/Off: On
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: C3
+	Velocity: 96
+	GateTime: 63%
+	Trigger: On
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+Step 10
+	On/Off: Off
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: --
+	Velocity: 0
+	GateTime: 0%
+	Trigger: Off
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+Step 11
+	On/Off: On
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: --
+	Velocity: 0
+	GateTime: 0%
+	Trigger: Off
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+Step 12
+	On/Off: Off
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: C3
+	Velocity: 58
+	GateTime: 44%
+	Trigger: On
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+Step 13
+	On/Off: Off
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: --
+	Velocity: 0
+	GateTime: 0%
+	Trigger: Off
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+Step 14
+	On/Off: On
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: C3
+	Velocity: 61
+	GateTime: 62%
+	Trigger: On
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+Step 15
+	On/Off: Off
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: C#3
+	Velocity: 40
+	GateTime: 75%
+	Trigger: On
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+Step 16
+	On/Off: Off
+	Motion On/Off: Off
+	Slide On/Off: Off
+
+	Key: --
+	Velocity: 0
+	GateTime: 0%
+	Trigger: Off
+
+	Motion Slot 1 Data 1: 0
+	Motion Slot 1 Data 2: 0
+	Motion Slot 1 Data 3: 0
+	Motion Slot 1 Data 4: 0
+	Motion Slot 2 Data 1: 0
+	Motion Slot 2 Data 2: 0
+	Motion Slot 2 Data 3: 0
+	Motion Slot 2 Data 4: 0
+	Motion Slot 3 Data 1: 0
+	Motion Slot 3 Data 2: 0
+	Motion Slot 3 Data 3: 0
+	Motion Slot 3 Data 4: 0
+	Motion Slot 4 Data 1: 0
+	Motion Slot 4 Data 2: 0
+	Motion Slot 4 Data 3: 0
+	Motion Slot 4 Data 4: 0
+
+
+{
+  NAME: 'ThickSeq\x00\x00\x00\x00',
+  DRIVE: 0,
+  VCO1_WAVE: 0,
+  VCO1_SHAPE: 604,
+  VCO1_LEVEL: 1023,
+  VCO1_PITCH: 512,
+  VCO1_OCTAVE: 1,
+  VCO2_WAVE: 2,
+  VCO2_SHAPE: 906,
+  VCO2_LEVEL: 1023,
+  VCO2_PITCH: 512,
+  VCO2_OCTAVE: 1,
+  SYNC_RING: 1,
+  CUTOFF: 296,
+  RESONANCE: 321,
+  EG_TYPE: 2,
+  EG_ATTACK: 110,
+  EG_DECAY: 110,
+  EG_INTENSITY: 873,
+  EG_TARGET: 0,
+  LFO_WAVE: 1,
+  LFO_MODE: 0,
+  LFO_RATE: 380,
+  LFO_INTENSITY: 873,
+  LFO_TARGET: 1,
+  LFO_BPM_SYNC: 0,
+  PORTAMENT_MODE: 0,
+  POTAMENT_TIME: 0,
+  CUTOFF_VELOCITY: 2,
+  CUTOFF_KEY_TRACK: 2,
+  SLIDER_ASSIGN: 'PITCH BEND'
+}
