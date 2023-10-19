@@ -1,4 +1,10 @@
-# Mantine Next.js template
+# mr midi
+
+mr midi is going to be my friend that talks to all my external synths. I will start with teaching him how to simply send and recieve patches.  Then hopefully he will learn about banks and how to store them.  Then hopefully he will want to edit patches in realtime.
+
+I am writing this in react in case i want to switch to native instead of browser.
+
+## Mantine Next.js template
 
 This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
 If you want to use pages router instead, see [next-pages-template](https://github.com/mantinedev/next-pages-template).
@@ -32,6 +38,4 @@ This template comes with the following features:
 
 ### Other scripts
 
-- `storybook` – starts storybook dev server
-- `storybook:build` – build production storybook bundle to `storybook-static`
 - `prettier:write` – formats all files with Prettier

@@ -12,8 +12,6 @@ input.on('sysex', function (msg) {
   console.log(Monologue.createFromSysEx(data).toString());
 });
 
-
-
 export function Monologue() {
 
   const sysex = new Uint8Array([
@@ -29,7 +27,7 @@ export function Monologue() {
   //console.log(program);
   return (
     <>
-      <Text color="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
+      <Text c="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
         <Button variant="filled">TRY ME</Button>
         <Program data={data} />
       </Text>
